@@ -3,6 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #dcdde1;
+}
+.line-draw{
+    position: relative;
+    display: inline-block;
+
+}
+.heading span{
+    color: #F7941D;
+}
+.line-draw::before{
+    position: absolute;
+    content: "";
+    left: 50%;
+    bottom: -10px;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 2px;
+    background-color: #0652DD;
+
+}
 .small-container{
     width: 80%;
     margin: 0 auto;
@@ -191,7 +213,7 @@
 .news-heading h2{
     font-size: 30px;
     letter-spacing: 1.5px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 .news-heading p{
     font-size: 15px;
@@ -328,3 +350,111 @@
 .carousel-caption h5, .carousel-caption p{
     color: #fff;
 }
+
+
+
+
+
+/* singel product styling */
+
+.detail-box .title{
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #646464;
+}
+.detail-box .name{
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 25px 0;
+}
+.detail-box .price{
+    margin: 25px 0;
+}
+.detail-box .add-cart{
+    background-color: #e84393;
+    color: #fff;
+
+}
+.detail-box .add-cart:hover{
+    background-color: #fff;
+    color: #e84393;
+    border: 1px solid #e84393;
+}
+.detail-box select{
+    border: 1px solid rgba(6, 82, 224, 0.5);
+    margin-bottom: 30px;
+    padding: 5px 10px;
+    font-weight: 600;
+    outline: none;
+}
+.detail-box input{
+    width: 50px;
+    padding: 5px 0 5px 10px;
+    outline: none;
+    border: 1px solid rgba(6, 82, 224, 0.5);
+    margin-right: 30px;
+}  
+.product-detail{
+    margin-top: 40px;
+    color: #2d3436;
+}
+.product-detail h4{
+    margin-bottom: 15px;
+    color: #2d3436;
+}
+
+.small-img .col-3{
+    cursor: pointer;
+}
+
+
+
+
+.releted-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.releted-col{
+    flex-basis: 18%;
+    min-width: 260px;
+    margin-bottom: 30px;
+}
+.releted-heading{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.releted-heading a{
+    text-decoration: none;
+    color: #2d3436;
+    position: relative;
+}
+.releted-heading a::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 17px;
+    width: 0;
+    height: 1px;
+    background-color: #2d3436;
+    transition: 0.4s ease all;
+}
+.releted-heading a:hover::before{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

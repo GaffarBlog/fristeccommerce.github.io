@@ -77,18 +77,33 @@ $('.customPrevBtn3').click(function() {
 // custom script
 
 var openuser = document.getElementById("open-user");
-var closeuser = document.getElementById("back");
 var userpfofile = document.getElementById("user");
 openuser.addEventListener("click", function(){
     user.classList.toggle("active");
 });
-closeuser.addEventListener("click", function(){
-    user.classList.remove("active");
+
+
+
+
+
+
+
+
+// single product gallery code
+var singleImg = document.getElementById("singleImg");
+var smallImg = document.getElementsByClassName("smallImg");
+
+smallImg[0].addEventListener("click", function(){
+    singleImg.src = smallImg[0].src;
+});
+smallImg[1].addEventListener("click", function(){
+    singleImg.src = smallImg[1].src;
+});
+smallImg[2].addEventListener("click", function(){
+    singleImg.src = smallImg[2].src;
+});
+smallImg[3].addEventListener("click", function(){
+    singleImg.src = smallImg[3].src;
 });
 
-
-
-closeuser.addEventListener("click", function(){
-    this.parentElement.classList.remove("active");
-});
 

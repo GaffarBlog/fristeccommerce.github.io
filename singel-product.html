@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="topmenu">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="#">Local Market</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#"></a>
+                        </li>
+                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Category
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="#">item 1</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">item 2</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">item 3</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">item 4</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Contact</a>
+                        </li>
+                    </ul>
+                    
+                    <div id="account">
+                        <a href="#">
+                            <img src="images/add-to-cart.svg" alt="">
+                        </a>
+                        <div id="user" class="bg-dark">
+                            <a href="#" id="open-user">
+                                <img src="images/user1.svg" alt="">&dtrif;
+                            </a>
+                            <div class="user-account">
+                                <a href="#">Item1</a>
+                                <a href="#">Item1</a>
+                                <a href="#">Item1</a>
+                                <hr>
+                                <a href="#">Item1</a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <!----------------- single product --------------- -->
+    <div class="small-container my-5">
+        <div class="row">
+            <div class="col-12 col-md-6 mb-5">
+                <img width="100%" src="images/gallery-1.jpg" alt="" id="singleImg">
+                <div class="small-img mt-2">
+                    <div class="row">
+                        <div class="col-3">
+                            <img class="img-fluid smallImg" src="images/gallery-1.jpg" alt="">
+                        </div>
+                        <div class="col-3">
+                            <img class="img-fluid smallImg" src="images/gallery-2.jpg" alt="">
+                        </div>
+                        <div class="col-3">
+                            <img class="img-fluid smallImg" src="images/gallery-3.jpg" alt="">
+                        </div>
+                        <div class="col-3">
+                            <img class="img-fluid smallImg" src="images/gallery-4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 detail-box">
+                <p class="title">
+                    T-Shirt / Polo Shirt
+                </p>
+                <h2 class="name">Red Printed T-shirt By AG</h2>
+                <h5 class="price">$50.00</h5>
+                <select name="" id="">
+                    <option value="" selected disabled>Select Color</option>
+                    <option value="">Red</option>
+                    <option value="">Green</option>
+                    <option value="">Yallow</option>
+                    <option value="">Black</option>
+                </select>
+                <br>
+                <input type="number" name="" value="1">
+                <a href="#" class="btn add-cart">Add to Cart</a>
+                <div class="product-detail">
+                    <h4>Product Details</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate asperiores saepe tempora mollitia necessitatibus nobis repudiandae incidunt pariatur, maiores dignissimos.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ------------Releted product-------------- -->
+    <div class="container">
+        <div class="releted-heading">
+            <h2>Releted Product</h2>
+            <a href="#">more product</a>
+        </div>
+        <div class="releted-row">
+            <div class="releted-col">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img class="rounded img-fluid" src="images/camera.jpg" alt="camera">
+                    </div>
+                    <div class="product-title">
+                        <h5>camera</h5>
+                        <h5>$30</h5>
+                    </div>
+                    <div class="product-details">
+                        <div class="center">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, doloremque.</p>
+                            <div class="product-btn">
+                                <a class="btn b-btn" href="#">Buy</a>
+                                <a class="btn c-btn" href="#">Card</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="releted-col">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img class="rounded img-fluid" src="images/camera.jpg" alt="camera">
+                    </div>
+                    <div class="product-title">
+                        <h5>camera</h5>
+                        <h5>$30</h5>
+                    </div>
+                    <div class="product-details">
+                        <div class="center">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, doloremque.</p>
+                            <div class="product-btn">
+                                <a class="btn b-btn" href="#">Buy</a>
+                                <a class="btn c-btn" href="#">Card</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="releted-col">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img class="rounded img-fluid" src="images/camera.jpg" alt="camera">
+                    </div>
+                    <div class="product-title">
+                        <h5>camera</h5>
+                        <h5>$30</h5>
+                    </div>
+                    <div class="product-details">
+                        <div class="center">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, doloremque.</p>
+                            <div class="product-btn">
+                                <a class="btn b-btn" href="#">Buy</a>
+                                <a class="btn c-btn" href="#">Card</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="releted-col">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img class="rounded img-fluid" src="images/camera.jpg" alt="camera">
+                    </div>
+                    <div class="product-title">
+                        <h5>camera</h5>
+                        <h5>$30</h5>
+                    </div>
+                    <div class="product-details">
+                        <div class="center">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, doloremque.</p>
+                            <div class="product-btn">
+                                <a class="btn b-btn" href="#">Buy</a>
+                                <a class="btn c-btn" href="#">Card</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+           
+        </div>
+    </div>
+
+
+    <!-- footer section -->
+    <div id="footer" class="bg-dark text-white mt-4">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-md-6 col-lg-3 col-10 mb-3 text-center">
+                    <div class="about">
+                        <h3>About</h3>
+                        <p>Lorems ipsum dolor sit, amet consectetur adipisicing elit. Quaerat tenetur culpa enim ipsam aliquid doloremque voluptatem saepe libero sit tempore!</p>
+                        <p>Call us 24/7</p>
+                        <p>+880 1700 000000</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-10 mb-3 text-center">
+                    <div class="link-wrap">
+                        <h3>Information</h3>
+                        <a href="#">About Us</a>
+                        <a href="#">Contact Us</a>
+                        <a href="#">FAQ's</a>
+                        <a href="#">Special Offer</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-10 mb-3 text-center">
+                    <div class="link-wrap">
+                        <h3>Category</h3>
+                        <a href="#">Men's Wear</a>
+                        <a href="#">Women's wear</a>
+                        <a href="#">Electric</a>
+                        <a href="#">Camera</a>
+                        <a href="#">Phone</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-10 mb-3 text-center">
+                    <h3>Get In Tuch</h3>
+                    <p>Joleshori 262 Bogora Bangladesh</p>
+                    <p>localmarker@mail.com</p>
+                    <div class="social-media">
+                        <a href="#"><img class="img-fluid" src="images/social/facebook.svg" alt=""></a>
+                        <a href="#"><img class="img-fluid" src="images/social/instagram.svg" alt=""></a>
+                        <a href="#"><img class="img-fluid" src="images/social/linkedin.svg" alt=""></a>
+                        <a href="#"><img class="img-fluid" src="images/social/twitter.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center text-muted py-3">
+            <p>	&copy; All rights reserved by developer <span>AG</span></p>
+        </div>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script src="js/js.js"></script>
+</body>
+</html>
